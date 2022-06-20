@@ -1,0 +1,14 @@
+//cấu hình thư viện bable
+//chuyển đổi ~ ==> ./src
+{
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "~": "./src"
+                }
+            }
+        ]
+    ]
+}
